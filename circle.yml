@@ -1,7 +1,9 @@
+checkout:
+  post:
+    - cp .sample.env .env
 database:
   override:
     - bin/setup
-    - bundle exec rake db:migrate RAILS_ENV=test
 test:
   override:
     - COVERAGE=true bin/rake
