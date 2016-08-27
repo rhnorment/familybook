@@ -39,5 +39,4 @@ else
 '
 fi
 
-
-          git config heroku.remote staging
+git config heroku.remote staging
