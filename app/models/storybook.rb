@@ -1,0 +1,2 @@
+class Storybook < ApplicationRecord
+end
