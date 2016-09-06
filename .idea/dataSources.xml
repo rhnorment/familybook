@@ -17,5 +17,13 @@
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql:familybook_development</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="Rails familybook: cucumber" uuid="90e8ae05-3dc0-41a6-85ca-2a3916d0887e">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:familybook_test</jdbc-url>
+    </data-source>
   </component>
 </project>
