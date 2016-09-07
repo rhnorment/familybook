@@ -1,5 +1,5 @@
 <%= content_tag_for(:ul, storybook) do %>
-  <li><%= storybook.title %></li>
+  <li><%= link_to storybook.title, storybook %></li>
   <li><%= storybook.cover %></li>
   <li><%= storybook.intro %></li>
   <li><%= storybook.body %></li>
