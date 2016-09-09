@@ -1,7 +1,6 @@
 class CreateStorybooks < ActiveRecord::Migration[5.0]
   def change
     create_table :storybooks do |t|
-      t.string :body,   default: ''
       t.string :cover
       t.string :intro,  default: ''
       t.string :title,  null: false

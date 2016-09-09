@@ -9,7 +9,7 @@ class StorybooksController < ApplicationController
   end
 
   def new
-
+    @storybook = Storybook.new
   end
 
 end

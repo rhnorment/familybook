@@ -51,7 +51,8 @@ group :test do
   gem 'database_cleaner'
   gem 'formulaic'
   gem 'launchy'
-  gem 'shoulda-matchers'
+  gem 'rails-controller-testing'
+  gem 'shoulda-matchers', '~> 3.1'
   gem 'simplecov', require: false
   gem 'timecop'
   gem 'webmock'

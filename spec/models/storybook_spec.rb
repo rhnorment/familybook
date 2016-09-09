@@ -19,14 +19,12 @@ describe Storybook, type: :model do
     expect(Storybook.new(storybook_attributes)).to be_valid
   end
 
-  it { should have_db_column(:body).of_type(:string) }
   it { should have_db_column(:cover).of_type(:string) }
   it { should have_db_column(:intro).of_type(:string) }
   it { should have_db_column(:title).of_type(:string) }
 
   it { should validate_presence_of(:title) }
 
-  it { should respond_to(:body) }
   it { should respond_to(:cover) }
   it { should respond_to(:id) }
   it { should respond_to(:intro) }

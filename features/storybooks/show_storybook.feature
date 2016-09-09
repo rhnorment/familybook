@@ -13,6 +13,17 @@ Feature: List storybooks
     When I click "Storybook 1 Title"
 
     Then I should be on the storybook page
+      And I should see "Storybook 1 Title"
+      And I should see "storybook1.jpg"
+      And I should see "Storybook 1 intro"
+      And I should see "Storybook 1 body"
+
+      But I should not see "Storybook 2 Title"
+      But I should not see "Storybook 3 Title"
+
+
+
+
 
 
 
