@@ -1,5 +1,7 @@
 <h2>All Storybooks</h2>
 
-<%= render @storybooks || 'There are no storybooks available.' %>
+<% @storybooks.each do |storybook| %>
+    <li><%= link_to storybook.title, storybook %></li>
+<% end %>
 
 <p><%= link_to 'Create new storybook', new_storybook_path %></p>

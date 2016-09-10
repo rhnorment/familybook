@@ -10,20 +10,10 @@ Feature: List storybooks
     And I am on the storybooks page
 
     Then The page should have "h2" message "All Storybooks"
-
-    And I should see the link "Storybook 1 Title"
-    And I should see "storybook1.jpg"
-    And I should see "Storybook 1 intro"
-
-    And I should see the link "Storybook 2 Title"
-    And I should see "storybook2.jpg"
-    And I should see "Storybook 2 intro"
-
-    And I should see the link "Storybook 3 Title"
-    And I should see "storybook3.jpg"
-    And I should see "Storybook 3 intro"
-
-    And I should see the link "Create new storybook"
+      And I should see the link "Storybook 1 Title"
+      And I should see the link "Storybook 2 Title"
+      And I should see the link "Storybook 3 Title"
+      And I should see the link "Create new storybook"
 
 
 

@@ -16,7 +16,6 @@ Feature: List storybooks
       And I should see "Storybook 1 Title"
       And I should see "storybook1.jpg"
       And I should see "Storybook 1 intro"
-      And I should see "Storybook 1 body"
 
       But I should not see "Storybook 2 Title"
       But I should not see "Storybook 3 Title"

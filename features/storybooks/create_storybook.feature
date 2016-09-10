@@ -14,5 +14,7 @@ Feature: Create storybooks
       And I should see the button "Create new storybook"
 
   Scenario: Valid storybook
+    Given I am on the new storybook page
+
 
   Scenario: Invalid storybook
